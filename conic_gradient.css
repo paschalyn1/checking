@@ -1,0 +1,48 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: dodgerblue;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin-top: 100px;
+    background: rgb(68, 9, 9);
+    width: 500px;
+    height: 300px;
+}
+
+.divA{
+    background-image: conic-gradient(red, yellow, pink, blue, indigo, purple, green);
+}
+
+.divB{
+    background-image: conic-gradient(red, green, yellow);
+    border-radius: 50%;
+}
+
+.divC{
+    background-image: conic-gradient(from 180deg, red, green, yellow);
+    border-radius: 50%;
+}
+
+.divD{    
+    background-image: conic-gradient(at 80% 80%,red, green, yellow);
+    border-radius: 50%;
+}
+
+.divE{   
+    background-image: repeating-conic-gradient(red, yellow 10%, blue 20%);
+    border-radius: 50%;
+}
