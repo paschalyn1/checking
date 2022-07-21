@@ -1,0 +1,57 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: dodgerblue;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: dodgerblue;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin: 100px 0px;
+}
+
+
+/*try removing the comments on each div to test the differences*/
+
+.divA p{
+    overflow: auto;
+    /* height: 100px; */
+}
+
+.divB p{
+    overflow: visible;
+    /* height: 100px; */
+    /* color:black; */
+}
+
+.divC p{
+    overflow: hidden;
+    height: 100px;
+}
+
+.divD p{
+    overflow: scroll;
+    /* height: 100px; */
+}
+
+.divE p{
+    overflow-x: scroll;
+}
+
+.divF p{
+    overflow-y: scroll;
+}
