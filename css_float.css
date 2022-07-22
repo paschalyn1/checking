@@ -1,0 +1,42 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: dodgerblue;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: dodgerblue;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin: 100px 0px;
+}
+
+img{
+    width: 200px;
+}
+
+
+.divA img{
+    float: left;
+}
+
+.divB img{
+    float: right;
+}
+
+.divC img{
+    float: none;
+}
