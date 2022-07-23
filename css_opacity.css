@@ -1,0 +1,50 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: dodgerblue;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: dodgerblue;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin: 100px 0px;
+}
+
+img{
+    width: 200px;
+}
+
+.divA img{
+    opacity: 1;
+}
+
+.divB img{
+    opacity: 0.5;
+}
+
+.divC img{
+    opacity: 0.0;
+}
+
+.divD p{
+    background-color: dodgerblue;
+    opacity: 0.3;
+}
+
+.divE p{
+    background-color: rgba(30, 143, 255, 0.093);
+}
