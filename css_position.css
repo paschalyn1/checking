@@ -1,0 +1,106 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: dodgerblue;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: dodgerblue;
+}
+
+.divA p, .divB p, .divC p, .divD p, .divE p{
+    background: none;
+    color: black;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin: 100px 0px;
+}
+
+
+.divA p{
+    position: static;
+ }
+
+.divB p{
+    position: relative;
+    left: 100px;
+}
+
+.divC p{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: purple;
+    color: white;
+}
+
+.divD{
+    position: relative;
+}
+
+.divD p{
+    position: absolute;
+    bottom: 10px;
+}
+
+.divE p{
+    position: sticky;
+    top: 0px;
+    background: red;
+    color: white;
+}
+
+.divF{
+    position: relative;
+}
+#top-left{
+    background: none;
+    color: black;
+    position: absolute;
+    top:5px;
+    left: 15px;
+}
+#bottom-left{
+    color: black;
+    background: none;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+#top-right{
+    color: black;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+#bottom-right{
+    color: black;
+    background: none;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+#center
+{
+    color: black;
+    background: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
