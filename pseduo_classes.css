@@ -1,0 +1,57 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: orangered;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: orangered;
+}
+
+.divA p, .divB p, .divC p{
+    background: none;
+    color: black;
+}
+
+.divA, .divB, .divC{
+    margin: 100px 0px;
+}
+
+.divA p:hover{
+    background: red;
+    font-size: 20px;
+}
+
+.divB p:first-child{
+    background: brown;
+}
+
+.divB p:last-child{
+    background: pink;
+    color: brown;
+}
+
+.divB p:nth-child(3){
+    background: purple;
+}
+
+.divC input:focus{
+    background: yellow;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: blue;
+}
