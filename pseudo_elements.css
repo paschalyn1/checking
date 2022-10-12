@@ -1,0 +1,60 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: orangered;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: orangered;
+}
+
+.divA p, .divB p, .divC p, .divD p, .divE p, .divF p{
+    background: none;
+    color: black;
+}
+
+.divA, .divB, .divC, .divD, .divE, .divF{
+    margin: 100px 0px;
+}
+
+.divA p::first-line{
+    background: yellow;
+    color: red;
+}
+
+.divB p::first-letter{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.divC p::before{
+    content: 'Hi ';
+}
+
+.divD p::after{
+    content: ' End';
+}
+
+::marker{
+    color: red;
+}
+
+::selection{
+    background: brown;
+    color: red;
+}
+/*divD*/
+
