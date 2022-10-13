@@ -29,3 +29,38 @@ p{
     margin: 100px 0px;
 }
 
+.divA{
+    position: relative;
+}
+
+.divA img{
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.divA .under{
+    position: absolute;
+    background: orangered;
+    color: white;
+    z-index: -2;
+}
+
+.divB{
+    position: relative;
+}
+
+.divB img{
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    left: 0px;
+}
+
+.divB .under{
+    position: absolute;
+    background: orangered;
+    color: white;
+}
