@@ -1,0 +1,31 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: purple;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: purple;
+}
+
+.divA p, .divB p{
+    background: none;
+    color: black;
+}
+
+.divA, .divB{
+    margin: 100px 0px;
+}
+
