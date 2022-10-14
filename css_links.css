@@ -1,0 +1,84 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(0, 109, 128);
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    background: rgb(0, 109, 128);
+}
+.divA, .divB, .divC, .divD, .divE{
+    margin: 100px 0px;
+}
+
+.divA a:link{
+    font-size: 30px;
+}
+
+.divA a:visited{
+    color: green;
+}
+
+.divA a:hover{
+    color: purple;
+}
+
+.divA a:active{
+    color: blue;
+}
+
+.divB a{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+
+.divC a{
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.divD a{
+    border: 2px solid orangered;
+    color: orangered;
+    background: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.divE a{
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.divE a:hover{
+    border: 2px solid orangered;
+    color: orangered;
+    background: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;   
+}
