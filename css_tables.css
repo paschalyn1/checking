@@ -1,0 +1,50 @@
+body{
+    background: none;
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(0, 109, 128);
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+    text-align: justify;
+}
+
+#countries{
+    font-family:Arial;
+    border: 2px solid gray;
+    caption-side: top;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#countries td, #countries th{
+    border: 2px solid white;
+    padding: 12px;
+}
+
+#countries th{
+    padding: 12px 0px;
+    text-align: center;
+    color: white;
+    background: rgb(0, 109, 128);
+}
+
+#countries tr:nth-child(even){
+background-color: wheat;
+}
+
+#countries tr:hover{
+    color: rgb(0, 109, 128);
+    font-weight: bolder;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(0, 109, 128);
+}
