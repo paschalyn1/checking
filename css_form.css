@@ -1,0 +1,64 @@
+body{
+    background: none;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(0, 109, 128);
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+    text-align: justify;
+}
+
+input[type=text], input[type=email], select{
+    width: 100%;
+    background: rgb(227, 227, 227);
+    border: none;
+    border-radius: 10px;
+    margin: 8px 0px;
+    padding: 15px 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background: rgb(0, 109, 128);
+    padding: 14px 20px;
+    border: none;
+    margin: 8px 0px;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: none;
+    border: 2px solid rgb(0, 109, 128);
+    color: rgb(0, 109, 128);
+}
+
+label{
+    text-align: left;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+}
+
+#my_form{
+    border-radius: 10px;
+    background: #f2f2f2;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Assignment I gave, here is the answer */
+#center{
+    text-align: center;
+}
