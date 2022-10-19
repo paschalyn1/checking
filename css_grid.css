@@ -1,0 +1,56 @@
+body{
+    background: none;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(36, 128, 0);
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+    text-align: justify;
+}
+
+#note{
+    color: red;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.header{
+    background: green;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.menu{
+    background: pink;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.main{
+    background: blue;
+}
+
+.right{
+    background: brown;
+}
+
+.footer{
+    background: purple;
+    /* grid-column: 2 / span 2; */
+    /* grid area : row-start / column-start / row-end / column-end  */
+    grid-area: 3 / 2 / 3 / 4;
+}
+
+
