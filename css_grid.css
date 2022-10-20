@@ -13,44 +13,56 @@ p{
     text-align: justify;
 }
 
-#note{
-    color: red;
-}
+/* CSS GRID */
 
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* height: 300px; */
     gap: 10px;
-    height: 100%;
-    color: white;
     text-align: center;
 }
 
+
 .header{
     background: green;
+    color: white;
+    /* grid-column: 1 / 4; */
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
 .menu{
-    background: pink;
+    background: brown;
+    color: white;
+    /* grid-row: 2 / span 2; */
     grid-row-start: 2;
     grid-row-end: 4;
 }
 
 .main{
     background: blue;
+    color: white;
 }
 
 .right{
-    background: brown;
+    background: pink;
+    color: brown;
 }
 
 .footer{
     background: purple;
-    /* grid-column: 2 / span 2; */
-    /* grid area : row-start / column-start / row-end / column-end  */
-    grid-area: 3 / 2 / 3 / 4;
+    color: white;
+    /* grid-area: row-start / column-start / row-end / column-end */
+    /* grid-area: 3 / 2 / 3 / 4; */
+    grid-area: 3 / 2 / span 1 / span 2;
 }
 
-
+#note{
+    background: rgb(128, 0, 0);
+    color: white;
+    margin-top: 60%;
+    text-align: center;
+}
