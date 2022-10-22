@@ -1,0 +1,85 @@
+body{
+    background: none;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(112, 1, 106);
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* CSS FLEXBOX */
+
+.flex-container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* horizontally */
+    /* justify-content: space-evenly;  */
+    /* vertically */
+    /* align-items: center; */
+    /* align-content: center; */
+    height: 220px;
+    color: white;
+    text-align: center;
+}
+
+.one{
+    order: 2;
+    flex-grow: 1;
+    background: purple;
+    align-self: stretch;
+    /* flex-shrink: 0; */
+}
+
+.two{
+    order: 1;
+    flex-grow: 1;
+    background: green;
+    align-self: flex-start;
+    /* flex-shrink: 0; */
+}
+
+.three{
+    order: 5;
+    flex-grow: 1;
+    background: blue;
+    align-self: flex-end;
+    /* flex-shrink: 0; */
+}
+
+.four{
+    order: 3;
+    /* flex-grow: 1; */
+    background: orangered;
+    /* flex-shrink: 0; */
+    /* flex-basis: 150px; */
+    flex: 1 0 150px; 
+    /* flex: flex-grow, flex-shrink, flex-basis*/
+    align-self: center;
+}
+
+.five{
+    order: 4;
+    flex-grow: 1;
+    background: brown;
+    align-self: flex-end;
+    /* flex-shrink: 0; */
+}
+
+#note{
+    margin-top: 60%;
+    text-align: center;
+    background: rgb(112, 1, 106);
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    padding: 20px;
+}
