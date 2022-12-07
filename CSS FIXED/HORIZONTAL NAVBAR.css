@@ -1,0 +1,37 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.803);
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar_inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    list-style-type: none;
+}
+
+.navbar_lists a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_logo{
+    color: black;
+}
+
+.background img{
+    width: 100%;
+    margin-top:80px;
+}
+
+body{
+    background: white;
+}
