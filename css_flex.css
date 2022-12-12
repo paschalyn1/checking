@@ -16,11 +16,11 @@ p{
 /* CSS FLEXBOX */
 
 .flex-container{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
-    flex-flow: row wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+/*     flex-flow: row wrap; */
     /* horizontally */
     /* justify-content: space-evenly;  */
     /* vertically */
@@ -30,9 +30,14 @@ p{
     color: white;
     text-align: center;
 }
-
+.flex-container > div{
+    width: 200px;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+}
 .one{
-    order: 2;
+    order: 3;
     flex-grow: 1;
     background: purple;
     align-self: stretch;
@@ -56,7 +61,7 @@ p{
 }
 
 .four{
-    order: 3;
+    order: 2;
     /* flex-grow: 1; */
     background: orangered;
     /* flex-shrink: 0; */
