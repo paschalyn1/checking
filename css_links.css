@@ -8,10 +8,6 @@ h1{
     color: rgb(0, 109, 128);
 }
 
-h3{
-    text-decoration: underline;
-}
-
 p{
     color: whitesmoke;
     font-size: large;
@@ -36,49 +32,49 @@ p{
 }
 
 .divA a:active{
-    color: blue;
+    color: red;
 }
 
 .divB a{
     text-decoration: none;
-    color: blue;
     font-size: 30px;
+    color: orangered;
 }
 
 .divC a{
+    text-decoration: none;
     background: orangered;
     color: white;
-    text-decoration: none;
-    padding: 10px;
+    border-radius: 20px;
     font-size: 30px;
-    border-radius: 10px;
+    padding: 20px;
 }
 
 .divD a{
+    text-decoration: none;
+    background: none;
     border: 2px solid orangered;
     color: orangered;
-    background: none;
-    text-decoration: none;
-    padding: 10px;
     font-size: 30px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .divE a{
+    text-decoration: none;
     background: orangered;
     color: white;
-    text-decoration: none;
-    padding: 10px;
+    border-radius: 20px;
     font-size: 30px;
-    border-radius: 10px;
+    padding: 20px; 
 }
 
 .divE a:hover{
+    text-decoration: none;
+    background: none;
     border: 2px solid orangered;
     color: orangered;
-    background: none;
-    text-decoration: none;
-    padding: 10px;
     font-size: 30px;
-    border-radius: 10px;   
+    padding: 20px;
+    border-radius: 20px;
 }
