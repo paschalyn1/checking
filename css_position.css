@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    color: rgb(241, 141, 18);
+    color: dodgerblue;
 }
 
 p{
@@ -13,7 +13,7 @@ p{
     font-size: large;
     padding: 10px;
     text-align: left;
-    background: rgb(241, 141, 18);
+    background: dodgerblue;
 }
 
 .divA p, .divB p, .divC p, .divD p, .divE p{
@@ -34,14 +34,15 @@ p{
 .divB p{
     position: relative;
     left: 100px;
-    border: 2px solid green;
+    background-color: purple;
+    color: white;
 }
 
 .divC p{
     position: fixed;
     bottom: 0px;
     right: 0px;
-    background: purple;
+    background: orangered;
     color: white;
 }
 
@@ -51,15 +52,16 @@ p{
 
 .divD p{
     position: absolute;
+    background: green;
+    color: white;
     top: -100px;
-    right: 0;
-    border: 2px solid orangered;
+    right: 20px;
 }
 
 .divE p{
     position: sticky;
     top: 0px;
-    background: dodgerblue;
+    background: brown;
     color: white;
 }
 
@@ -69,39 +71,43 @@ p{
 
 #top-left{
     position: absolute;
+    color: black;
     top: 0px;
     left: 0px;
-    background: yellow;
+    background: none;
 }
 
 #bottom-left{
     position: absolute;
-    bottom: 0px;
     left: 0px;
-    background: violet;
+    bottom: 0px;
+    background: none;
+    color: black;
 }
 
 #top-right{
     position: absolute;
     top: 0px;
     right: 0px;
-    background: brown;
+    background: none;
+    color: black;
 }
 
 #bottom-right{
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     right: 0px;
-    background: pink;
+    background: none;
     color: black;
 }
 
 #center{
     position: absolute;
-    width:100%;
-    top: 50%;
+    width: 100%;
     text-align: center;
-    background: purple;
+    top: 40%;
+    background: none;
+    color: black;
 }
 
 
