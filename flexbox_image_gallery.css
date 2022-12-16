@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    margin: 60px;
+}
+
+h1{
+    color: rgb(64, 0, 128);
+    font-size: 30px;
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* CSS RESPONSIVE GALLERY */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+}
+
+.column {
+  flex: 25%; /* 1 1 25% */
+  max-width: 100%;
+  padding: 0px 4px;
+}
+  
+.column img{
+  margin-top: 8px;
+  border-radius: 20px;
+  max-width: 100%;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of three columns */
+  @media screen and (max-width:1000px){
+    .column {
+      flex: 40%; /*1 1 40%*/
+      max-width: 100%;
+    }
+  }    
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other, and it becomes one column. */
+  @media screen and (max-width: 600px){
+    .column {
+      flex: 100%; /*1 1 100%*/
+      max-width: 100%;
+    }
+  }
