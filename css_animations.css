@@ -76,6 +76,99 @@ body{
 }
 
 
+/*CSS ANIMATIONS ASSIGNMENT, CHECK IT OUT TO SEE WHAT IT LOOKS LIKE ON THE SCREEN*/
+
+@keyframes myAnimation{
+  0%{
+    background-color: red;
+    height: 5px;
+    width: 5px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  5%{
+    background-color: purple;
+  }
+
+  10%{
+    background-color: blue;
+  }
+
+  15%{
+    background-color: green;
+  }
+
+  20%{
+    background-color: greenyellow;
+  }
+
+  25%{
+    background-color: indigo;
+  }
+
+  30%{
+    background-color: blanchedalmond;
+  }
+
+  35%{
+    background-color: black;
+  }
+
+  40%{
+    background-color: darkmagenta;
+  }
+
+  45%{
+    background-color: orangered;
+  }
+
+  50%{
+    background-color: orange;
+  }
+
+  55%{
+    background-color: gold;
+  }
+
+  60%{
+    background-color: goldenrod;
+  }
+
+  65%{
+    background-color: gray;
+  }
+
+  70%{
+    background-color: skyblue;
+  }
+
+  75%{
+    background-color: lightcoral;
+  }
+
+  80%{
+    background-color: lightseagreen;
+  }
+
+  85%{
+    background-color: lightsalmon;
+  }
+
+  90%{
+    background-color: lightcyan;
+  }
+
+  95%{
+    background-color: darkolivegreen;
+  }
+
+  100%{
+    background-color: dodgerblue;
+  }
+}
+
 
 
 
