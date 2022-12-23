@@ -1,0 +1,45 @@
+h1{
+  color: rgb(181, 8, 92);
+  text-align: center;
+}
+ 
+p{
+  text-align: center;
+}
+
+body{
+  padding: 10px;
+  background-color: wheat;
+}
+
+#note{
+  margin-top: 82%;
+  background: rgb(181, 8, 92);
+  padding:20px;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* CSS TRANSITIONS*/
+.transitions{
+  width: 100px;
+  height: 100px;
+  background: purple;
+  /* transition-property: width, height;
+  transition-duration: 2s; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-delay: 3s; */
+  /* transition: width 2s ease-in-out 3s, height 2s ease-in-out 3s; */
+  transition: width 2s, height 2s, transform 2s;
+  /* transition: t-property t-duration t-t-function t-delay */
+}
+
+.transitions:hover{
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+
