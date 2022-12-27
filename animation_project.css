@@ -1,0 +1,163 @@
+body{
+    overflow: hidden;
+    height: 100%;
+    margin: 0px;
+}
+
+.sky{
+    background-color: skyblue;
+    height: 205px;
+    position: relative;
+}
+
+.sun{
+    width: 100px;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes sun {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-200px)
+    }
+}
+
+.cloud{
+    width: 160px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    animation-name: cloud;
+    animation-duration: 80s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-80px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.cloud2{
+    width: 180px;
+    position: absolute;
+    left: 0px;
+    animation-name: cloud2;
+    animation-duration: 80s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud2{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.vegetation{
+    position: relative;
+    height: 165px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(7, 77, 7);
+}
+
+.tree{
+    position: absolute;
+    width: 190px;
+    bottom: 5px;
+    left: 20px;
+}
+
+.tree2{
+    position: absolute;
+    width: 160px;
+    right: 0px;
+    bottom: 30px;
+}
+
+.road{
+    height: 220px;
+    background: dimgrey;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    border-bottom: 10px solid grey;
+    border-top: 10px solid grey;
+}
+
+.track_divider{
+    box-sizing: border-box;
+    border: 5px dashed white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.skater{
+    position: absolute;
+    width: 200px;
+    top: -120px;
+    z-index: 1;
+    left: 0px;
+    animation-name: skater;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes skater{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(700%);
+    }
+}
+
+.rider{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    top:-30px;
+    right: 0px;
+    animation-name: rider;
+    animation-duration: 6s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes rider {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-700%);
+    }
+}
+
