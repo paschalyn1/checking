@@ -1,1 +1,246 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background: black;
+}
+
+.logo_container
+{
+  color: red;
+  font-weight: bold;
+  font-family: franklin gothic medium;
+  padding: 20px;
+}
+
+.container{
+  background: #131313;
+  height: calc(100vh - 0px);
+  color: white;
+}
+
+.content_container{
+  margin-left: 0px;
+}
+
+.featured_content{
+  height: calc(100vh - 0px);
+  max-height: 100%;
+  background: url("netflix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.black_fill{
+  background: rgba(0, 0, 0, 0.656);
+  height: 100%;
+}
+
+.for_text{
+  height: 100%;
+  font-family: segoe ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.for_text h1{
+  font-size: 4vh;
+  text-align: center;
+  font-weight: 700;
+}
+
+.for_text h4{
+  font-size: 2.6vh;
+  margin-top: 10px;
+  font-family: segoe ui;
+  font-weight: 490;
+  text-align: center;
+}
+
+.for_text p{
+  margin: 10px 0px;
+  font-family: segoe ui;
+  text-align: center;
+  font-weight: 450;
+  font-size: 1.9vh;
+}
+
+.input_box{
+  width: 80%;
+}
+
+.email{
+  width: 100%;
+  padding: 15px;
+}
+
+.get_started{
+  width: fit-content;
+  text-align: center;
+}
+
+.get_started p{
+  background: red;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: all 1s ease-in-out;
+}
+
+.get_started p:hover{
+  background: black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+hr{
+  margin: 0px;
+  height: 8px;
+  width: 100%;
+  border: none;
+  background: rgba(48, 48, 48, 0.864);
+}
+
+.container2, .container3{
+  margin: 50px 40px;
+  color: white; 
+  font-family: segoe ui;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container2 h1, .container3 h1{
+  font-size: 3vh;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.container2 p{
+  margin-top: 15px;
+  font-size: 2vh;
+  font-weight: 450;
+}
+
+.container2 img{
+  width: 75%;
+}
+
+.container3 h1{
+  margin-bottom: 15px;
+}
+
+.container3 .div{
+  background: rgba(48, 48, 48, 0.864);
+  margin-top: 10px;
+  position: relative;
+  padding: 15px;
+  font-size: 1.9vh;
+  cursor: pointer;
+  font-weight: 400;
+  color: white;
+  font-family: segoe ui;
+  width: 80%;
+  text-align: left;
+}
+
+.div .wrapper{
+  margin-top: 30px;
+}
+
+.div i{
+  position: absolute;
+  right: 5%;
+}
+
+.container3 .wrapper{
+  text-align: left;
+  display: none;
+}
+
+.div:hover .wrapper{
+  display: block;
+}
+
+.text2{
+  margin-top: 15px;
+  width: 80%;
+}
+
+.footer{
+  color: whitesmoke;
+  margin: 70px;
+  font-family: segoe ui;
+}
+
+.footer h4{
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.footer_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_flex p{
+  margin: 10px 0px;
+  transition: 2s ease-in-out;
+  font-size: 12px;
+}
+
+.footer_flex p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .container2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .container2 .diff_div{
+    width: 50%;
+  }
+
+.container2 h1, .container3 h1, .for_text h1{
+  font-size: 280%;
+  font-weight: 650;
+}
+
+.for_text h4{
+  font-size: 160%;
+}
+
+.for_text p, .container3 .div{
+  font-size: 140%;
+}
+
+.container2 p{
+    font-weight: 500;
+    font-size: 140%;
+}
+
+.container2 img{
+    width: 50%;
+}
+
+.footer{
+  color: dimgray;
+}
+}
 
