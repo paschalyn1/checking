@@ -154,7 +154,7 @@ body{
 
 @keyframes rider {
     from{
-        transform: translateX(100%);
+        transform: translateX(1000%);
     }
     to{
         transform: translateX(-700%);
