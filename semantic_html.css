@@ -1,0 +1,15 @@
+section h1{
+  color: white;
+  background: dodgerblue;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  background: red;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
