@@ -1,0 +1,18 @@
+.heading{
+    color: green;
+    font-size: 50px;
+}
+
+.main{
+    background-color: aquamarine;
+}
+
+.text{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#text2{
+    background-color: red;
+    color: white;
+}
