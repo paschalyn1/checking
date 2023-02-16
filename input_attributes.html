@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MY FIRST HTML PAGE</title>
+      <link rel="stylesheet" href="index.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="icons8-internet-16.png">
+   </head>
+
+   <body>
+      <form action="demo_page.php" autocomplete="on">
+         <!-- value attribute -->
+       <label for="first_name">First name</label>
+       <input type="text" id="first_name" name="first_name" value="Johnson">
+        <br><br>
+
+        <!-- readonly attribute -->
+        <label for="last_name">Last name</label>
+        <input type="text" id="last_name" name="last_name" value="Scott" readonly>
+        <br><br>
+
+        <!-- disabled attribute -->
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" name="surname" value="Maria" disabled> 
+        <br><br>
+
+        <!-- attribute size -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="" size="30">
+        <br><br>
+
+        <!-- attribute maxlength -->
+        <label for="first_name">First name</label>
+         <input type="text" id="first_name" name="first_name" value="Johnson" maxlength="10" size="50">
+        <br><br>
+
+        <!-- max and min attribute -->
+        <label for="quantity">Quanitity (1-10)</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+        <br><br>
+
+        <!-- multiple attribute -->
+        <label for="myfiles">Select multiple files:</label>
+        <input type="file" id="myfiles" name="myfiles" multiple>
+        <br><br>
+        
+        <!-- placeholder attribute  -->
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="First name">
+        <br><br>
+   
+        <!-- required attribute  -->
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <input type="submit">
+        <br><br>
+
+        <!-- autofocus attribute  -->
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="first_name" autofocus>
+        <br><br>
+
+        <!-- autocomplete attribute  -->
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="first_name" 
+        value="" autocomplete="on">
+      </form>
+   </body>
+</html>
