@@ -1,0 +1,17 @@
+.text{
+    background: violet;
+}
+
+p{
+    background-color: red !important;
+    border: 2px solid green;
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 40px;
+    padding-bottom: 50px; */
+    padding: 20pt;
+}
+
+h6{
+    background-color: yellow !important;
+}
