@@ -1,0 +1,17 @@
+.text{
+    background: violet;
+}
+
+p{
+    background-color: red !important;
+    border: 2px solid green;
+    /* margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 120px; */
+    margin: 100pt;
+}
+
+h6{
+    background-color: yellow !important;
+}
