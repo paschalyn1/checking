@@ -1,0 +1,11 @@
+.text{
+    background: violet;
+}
+
+p{
+    background-color: red !important;
+}
+
+h6{
+    background-color: yellow !important;
+}
