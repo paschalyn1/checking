@@ -1,0 +1,23 @@
+*{
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid orangered;
+}
+
+/* rgb - r - red, g-green, b- blue */
+
+/* HEX - #rrggbb (rgb) */
+
+/* HSL - Hue, Saturation and Lightness */
+
+/* RGBA & HSLA - A means Alpha */
+
+p{
+    background-color: rgb(42, 227, 255);
+    color: #3314ff;
+    border: 1px dotted hsl(248, 100%, 74%);
+}
+
+h6{
+    background-color: hsla(255, 53%, 58%, 0);
+}
