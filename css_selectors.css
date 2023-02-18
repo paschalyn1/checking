@@ -1,0 +1,24 @@
+#heading{
+    color: brown;
+    background-color: antiquewhite;
+    font-size: 40px;
+}
+
+p.text{
+    color: blue;
+    font-size: 30px;
+}
+
+*{
+    margin: 30px;
+    border: 2px solid red;
+}
+
+p{
+    background-color: green;
+}
+
+a, p, h1{
+    border: 3px solid black;
+    border-radius: 10px;
+}
