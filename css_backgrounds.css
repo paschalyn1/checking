@@ -1,0 +1,8 @@
+/* https://images.pexels.com/photos/10756534/pexels-photo-10756534.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load */
+
+body{
+    background: url('https://images.pexels.com/photos/10756534/pexels-photo-10756534.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
