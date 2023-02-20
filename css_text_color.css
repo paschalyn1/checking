@@ -1,0 +1,21 @@
+.text{
+    border-style: groove;
+    border-width: 2pt;
+    border-radius: 40px;
+    border-color: #344456;
+}
+
+p{
+    
+}
+
+a{
+    font-size: 30px;
+    color: hsl(121, 95%, 54%);  /*comment three out and make use of one*/
+    color: rgb(100, 100, 0);    /*comment three out and make use of one*/
+    color: dodgerblue;          /*comment three out and make use of one*/
+    color: #ffff00;             /*comment three out and make use of one*/
+}
+
+h6{
+}
