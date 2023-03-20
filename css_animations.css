@@ -29,6 +29,12 @@ body{
 #note span{
   font-weight: 300;
 }
+.parent-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 2s ease-in-out;
+}
 
 /* CSS ANIMATION */
 .animation{
@@ -76,8 +82,9 @@ body{
 }
 
 
-/*CSS ANIMATIONS ASSIGNMENT, CHECK IT OUT TO SEE WHAT IT LOOKS LIKE ON THE SCREEN*/
-
+/*CSS ANIMATIONS ASSIGNMENT, CHECK IT OUT TO SEE WHAT IT LOOKS LIKE ON THE BROWSER*/
+/* comment out the animation keyframe, myanimation, at the top and use this one below to avoid a wrong display. */
+/* Don't hesitate to play around with the properties/values in each level of the keyframe. */
 @keyframes myAnimation{
   0%{
     background-color: red;
@@ -170,7 +177,54 @@ body{
 }
 
 
+/* TODO TASK AS STATED IN THE LAST PART OF THE LESSON VIDEO */
+/* Input the different values for each of the css animation properties to see the 
+difference in each of them, look closely at each of the boxes, 
+observe them well as well as their codes. */
+.div1{
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
 
+.div2{
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+
+.div3{
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-fill-mode: none;
+}
+
+/* Note: the animation properties whose values were changed are: 
+animation-direction: values are(normal, reverse, alternate and alternate-reverse),
+animation-timing-function: values are(ease-in, ease, ease-out, ease-in-out)
+animation-fill-mode: values are(none, forwards, backwards and both) 
+You can explore more on your own if you wish to.*/
 
 
 
